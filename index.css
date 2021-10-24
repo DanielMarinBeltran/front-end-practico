@@ -22,9 +22,10 @@ body{
 }
 
 .form-container {
-  width: 250px;
+  width: 300px;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  justify-items: center;
 }
 
 .logo {
@@ -73,6 +74,36 @@ body{
 
 /* Ends section fot the password change form */
 
+/* Starts section for email sent. */
+
+.email-image {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  background-color: var(--text-input-field);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.email-image img {
+  width: 80px;
+}
+
+.resend {
+  font-size: var(--sm);
+}
+
+.resend span {
+  color: var(--very-light-pink);
+}
+.resend a{
+  color: var(--hospital-green);
+  text-decoration: none;
+}
+
+/* Ends section for email sent. */
 
 .primary-button {
   background-color: var(--hospital-green);
@@ -96,3 +127,5 @@ body{
     display: block;
   }
 }
+
+
